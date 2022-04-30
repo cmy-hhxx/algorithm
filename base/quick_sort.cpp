@@ -28,9 +28,10 @@ int main()
 
     for (int i = 0; i < n; i ++ ) scanf("%d", &q[i]);
 
-    quick_sort(0, n - 1);
+    quick_sort(0, n- 1);
 
     for (int i = 0; i < n; i ++ ) printf("%d ", q[i]);
+    cout << endl;
 
     return 0;
 }
