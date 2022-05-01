@@ -5,7 +5,6 @@ using namespace std;
 const int N = 100010;
 int q[N];
 int f[N][2];
-
 int n;
 
 int main()
@@ -15,7 +14,6 @@ int main()
     for (int i = 1; i <= n; i ++ ) scanf("%d", &q[i]);
 
     f[0][0] = -2e9;
-    f[0][1] = 0;
 
     for (int i = 1; i <= n; i ++ )
     {
@@ -35,7 +33,6 @@ int main()
     }
 
     int ans = -2e9;
-
     for (int i = 1; i <= n; i ++ ) ans = max(ans, f[i][0]);
 
     cout << ans << endl;
