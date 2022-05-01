@@ -22,8 +22,8 @@ We have a general method to analyse this sort of problem.
     ```f[0][0]``` in our definition means picking from top 0 items whose sum is the maxium and must be odd, so, at the very begining, we can't make it. So initialize into -2e9!
     ```f[0][1]``` in our definition means picking from top 0 items whose sum is the maxium and must be even, so, at the very begining, we can make it happen. Keep it zero!
 ## point-assignment
-    To solve this problem, we need to review the base algorithm "judge bipartite graph"!
-    First of all, we need to figure out what is a bipartite graph. A graph can be bipartite if and only if it contains no odd-length circle.
-    Also in a bipartile graph, all its vertices can be divided into two disjoint and independent sets ** U ** and ** V **.
-    The two sets can be thought of as a coloring of the graph with two colors.
-    In this problem, we need to judge if the graph is a bipartite graph and use multiplication principle to calculate the result.
+To solve this problem, we need to review the base algorithm "judge bipartite graph"!
+First of all, we need to figure out what is a bipartite graph. A graph can be bipartite if and only if it contains no odd-length circle.
+Also in a bipartile graph, all its vertices can be divided into two disjoint and independent sets ** U ** and ** V **.
+The two sets can be thought of as a coloring of the graph with two colors.
+In this problem, we need to judge if the graph is a bipartite graph and use multiplication principle to calculate the result.
